@@ -7,7 +7,7 @@ omgd:
   name: godot3-nakama3-example
   servers:
     ports:
-      tcp: '"22", "80", "443", "7348-7351"'
+      tcp: '"22", "3030", "7348-7351"'
       udp: '"7348-7351"'
     services:
     - nakama
