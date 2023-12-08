@@ -4,10 +4,6 @@ extends "res://Character/CharacterController.gd"
 
 const INPUT_MOVE: int = 20
 
-var map_constraints: Dictionary = {}
-
-onready var camera: Camera2D = $Camera2D
-
 
 func _physics_process(_delta: float):
 	target = position
