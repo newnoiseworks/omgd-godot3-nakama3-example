@@ -4,9 +4,7 @@ enum {
   MOVEMENT = 0,
 }
 
-
 signal movement(state, presence)
-
 
 var signal_map = {
 	MOVEMENT: "movement",
@@ -30,8 +28,6 @@ func emit(op_code: int, payload: String):
 		PlayerManager.socket.send_match_state_async(
 			PlayerManager.game_match.match_id, op_code, payload
 		)
-
-
 
 
 func movement(payload):
