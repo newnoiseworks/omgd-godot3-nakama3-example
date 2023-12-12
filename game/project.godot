@@ -1,13 +1,6 @@
-; Engine configuration file.
-; It's best edited using the editor UI and not directly,
-; since the parameters that go here are not all obvious.
-;
-; Format:
-;   [section] ; section goes between []
-;   param=value ; assign values to parameters
+[]
 
 config_version=4
-
 _global_script_classes=[ {
 "base": "Reference",
 "class": "NakamaAPI",
@@ -104,7 +97,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="example-2d"
+config/name="omgd-godot3-nakama3-example-2d"
 run/main_scene="res://Authentication/Authentication.tscn"
 config/icon="res://icon.png"
 
