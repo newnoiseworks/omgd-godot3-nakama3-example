@@ -7,3 +7,10 @@
 [node name="Experience" instance=ExtResource( 2 )]
 script = ExtResource( 1 )
 character_scene = ExtResource( 3 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." index="2"]
+margin_left = 390.0
+margin_top = 1.0
+margin_right = 653.0
+margin_bottom = 70.0
+text = "WASD = movement"
